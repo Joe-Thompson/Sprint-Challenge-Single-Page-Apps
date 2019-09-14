@@ -12,6 +12,7 @@ main {
   background: #fff;
   padding: 15px;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  border-radius: 3rem;
 }
 
 .grid-view {
@@ -27,13 +28,66 @@ main {
 .grid-view div.card.ui {
   margin: 1.25rem;
 }
-/*
+
 .main-img {
   display: block;
   border-radius: 100%;
   margin: 0 auto;
-} */
+}
 
 header h1 {
   text-align: center;
 }
+
+.location-list {
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.location {
+  justify-content: flex-start;
+  width: 25%;
+  padding: 40px;
+  margin: 30px;
+  border: 3px solid black;
+  border-radius: 3rem;
+  background-color: aliceblue;
+}
+
+.episode-list {
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.episode {
+  width: 25%;
+  padding: 40px;
+  margin: 30px;
+  border: 3px solid black;
+  border-radius: 3rem;
+  background-color: aliceblue;
+}
+
+.character {
+  padding: 5px 0;
+}
+
+img {
+  border-radius: 2.5rem;
+}
+
+.cards  {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.bodyCard {
+  padding-top: 10px;
+  width: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
